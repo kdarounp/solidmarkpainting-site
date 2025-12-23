@@ -7,6 +7,11 @@ export const site = {
     src: "/logo/Solidmark_Logo.png",
     alt: "Solidmark Painting logo",
   },
+  social: {
+    facebook: "",
+    instagram: "",
+    tiktok: "",
+  },
   phone: {
     display: "226-503-0241",
     tel: "tel:2265030241",
