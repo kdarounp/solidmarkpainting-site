@@ -2,9 +2,16 @@ export function cx(...c) {
   return c.filter(Boolean).join(" ");
 }
 
-export function Button({ as = "button", href, onClick, variant = "primary", children }) {
+export function Button({
+  as = "button",
+  href,
+  variant = "primary",
+  children,
+  ...props
+}) {
   const base =
     "inline-flex items-center justify-center rounded-2xl px-5 py-3 text-sm font-medium transition shadow-sm ring-1 ring-black/10 focus:outline-none focus-visible:ring-2 focus-visible:ring-[color:var(--accent)] focus-visible:ring-offset-2";
+
   const styles =
     variant === "primary"
       ? "bg-[color:var(--accent)] text-white hover:opacity-90"
@@ -12,17 +19,19 @@ export function Button({ as = "button", href, onClick, variant = "primary", chil
 
   if (as === "a") {
     return (
-      <a href={href} className={cx(base, styles)}>
+      <a href={href} className={cx(base, styles)} {...props}>
         {children}
       </a>
     );
   }
+
   return (
-    <button onClick={onClick} className={cx(base, styles)}>
+    <button className={cx(base, styles)} {...props}>
       {children}
     </button>
   );
 }
+
 
 export function Container({ children, className }) {
   return (
