@@ -82,7 +82,7 @@ export const projects = [
     //title: "Crisp White Trim",
     location: "London, ON",
     tag: "Work",
-    afterSrc:"/work/42.jpg",
+    afterSrc:"/work/42.JPG",
   },
   {
     id: "p12",
@@ -144,7 +144,7 @@ export const projects = [
     //title: "Crisp White Trim",
     location: "London, ON",
     tag: "Work",
-    afterSrc:"/work/43.jpg",
+    afterSrc:"/work/43.JPG",
     
   },
   {
@@ -152,7 +152,7 @@ export const projects = [
     //title: "Crisp White Trim",
     location: "London, ON",
     tag: "Work",
-    afterSrc:"/work/44.jpg",
+    afterSrc:"/work/44.JPG",
   },
   {
     id: "p21",
@@ -188,14 +188,14 @@ export const projects = [
     //title: "Crisp White Trim",
     location: "London, ON",
     tag: "Work",
-    afterSrc:"/work/40.jpg",
+    afterSrc:"/work/40.JPG",
   },
   {
     id: "p26",
     //title: "Crisp White Trim",
     location: "London, ON",
     tag: "Work",
-    afterSrc:"/work/41.jpg",
+    afterSrc:"/work/41.JPG",
   },
 
 
